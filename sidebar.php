@@ -22,13 +22,19 @@
             <li>
                 <a href="customers.php">
                     <i class="sidebar-item-icon fa fa-users"></i>
-                    <span class="nav-label">Customes</span>
+                    <span class="nav-label">Customers</span>
                 </a>
             </li>
             <li>
                 <a href="products.php">
                     <i class="sidebar-item-icon fa fa-cubes"></i>
                     <span class="nav-label">Products</span>
+                </a>
+            </li>
+            <li>
+                <a href="customers.php">
+                    <i class="sidebar-item-icon fa fa-money"></i>
+                    <span class="nav-label">Purchase Orders</span>
                 </a>
             </li>
             <li>

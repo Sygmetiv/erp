@@ -26,7 +26,7 @@
         <!-- START TOP-RIGHT TOOLBAR-->
         <ul class="nav navbar-toolbar">
             <li class="dropdown dropdown-inbox">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope-o"></i>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-envelope-o"></i>
                     <span class="badge badge-primary envelope-badge">9</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right dropdown-menu-media">
@@ -87,7 +87,7 @@
                 </ul>
             </li>
             <li class="dropdown dropdown-notification">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell-o rel"><span class="notify-signal"></span></i></a>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-bell-o rel"><span class="notify-signal"></span></i></a>
                 <ul class="dropdown-menu dropdown-menu-right dropdown-menu-media">
                     <li class="dropdown-menu-header">
                         <div>
@@ -144,7 +144,7 @@
                 </ul>
             </li>
             <li class="dropdown dropdown-user">
-                <a class="nav-link dropdown-toggle link" data-toggle="dropdown">
+                <a class="nav-link dropdown-toggle link" data-bs-toggle="dropdown">
                     <img src="./assets/img/admin-avatar.png" />
                     <span></span>Admin<i class="fa fa-angle-down m-l-5"></i></a>
                 <ul class="dropdown-menu dropdown-menu-right">

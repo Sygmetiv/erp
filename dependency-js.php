@@ -3,8 +3,9 @@
 <script src="./assets/vendors/bootstrap5/popper.min.js"></script>
 
 <!-- <script src="./assets/vendors/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script> -->
-<script src="./assets/vendors/bootstrap5/bootstrap.min.js"></script>
+<!-- <script src="./assets/vendors/bootstrap5/bootstrap.min.js"></script> -->
 <script src="./assets/vendors/bootstrap5/bootstrap.bundle.min.js"></script>
+
 <script src="./assets/vendors/metisMenu/dist/metisMenu.min.js" type="text/javascript"></script>
 <script src="./assets/vendors/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
 

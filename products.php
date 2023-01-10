@@ -29,311 +29,377 @@
             <div class="page-content fade-in-up">
                 <div class="ibox">
                     <div class="ibox-body">
-                        <div class="text-end px-2 pb-2">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newProductModal">
-                                <i class="fa fa-plus"></i> New Product
-                            </button>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Type Keyword & Enter" />
+                            </div>
+                            <div class="col">
+                                <div class="text-end px-2 pb-2">
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newVendorModal">
+                                        <i class="fa fa-plus"></i> New Customer
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                        <table class="table table-striped table-bordered table-hover" id="example-table" cellspacing="0" width="100%">
+
+                        <table class="table table-sm table-bordered" id="example-table" cellspacing="0" width="100%">
                             <thead>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Email</th>
-                                    <th>Mobile</th>
-                                    <th>Phone</th>
-                                    <th>Business Type</th>
-                                    <th>GSTIN</th>
-                                    <th>Action</th>
+                                    <th class="align-middle">Image</th>
+                                    <th class="align-middle">Code</th>
+                                    <th class="align-middle">Name</th>
+                                    <th class="align-middle">Price</th>
+                                    <th class="align-middle">Discount</th>
+                                    <th class="align-middle">Dis. Price</th>
+                                    <th class="align-middle">Stock Count</th>
+                                    <th class="align-middle">Action</th>
                                 </tr>
                             </thead>
                             <tfoot>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Email</th>
-                                    <th>Mobile</th>
-                                    <th>Phone</th>
-                                    <th>Business Type</th>
-                                    <th>GSTIN</th>
-                                    <th>Action</th>
+                                    <th class="align-middle">Image</th>
+                                    <th class="align-middle">Code</th>
+                                    <th class="align-middle">Name</th>
+                                    <th class="align-middle">Price</th>
+                                    <th class="align-middle">Discount</th>
+                                    <th class="align-middle">Discounted Price</th>
+                                    <th class="align-middle">Stock Count</th>
+                                    <th class="align-middle">Action</th>
                                 </tr>
                             </tfoot>
                             <tbody>
                                 <tr>
-                                    <td>Yuri Berry</td>
-                                    <td>Chief Marketing Officer (CMO)</td>
-                                    <td>New York</td>
-                                    <td>40</td>
-                                    <td>2009/06/25</td>
-                                    <td>$675,000</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                    <td style="width: 10%;"><img src="https://m.media-amazon.com/images/I/81EZ51fQoVL._SX466_.jpg" class="img-fluid" /></td>
+                                    <td style="width: 5%;" class="align-middle">000010</td>
+                                    <td style="width: 15%;" class="align-middle">Laptop Dell</td>
+                                    <td style="width: 10%;" class="align-middle">&#8377;40,000</td>
+                                    <td style="width: 5%;" class="align-middle">15%</td>
+                                    <td style="width: 5%;" class="align-middle">&#8377;35,000</td>
+                                    <td style="width: 5%;" class="align-middle">122</td>
+                                    <td style="width: 10%;" class="align-middle">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="product-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Caesar Vance</td>
-                                    <td>Pre-Sales Support</td>
-                                    <td>New York</td>
-                                    <td>21</td>
-                                    <td>2011/12/12</td>
-                                    <td>$106,450</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                        <button class="btn btn-danger btn-sm">Detail</button>
-                                        <button class="btn btn-danger btn-sm">History</button>
+                                    <td style="width: 10%;"><img src="https://m.media-amazon.com/images/I/81EZ51fQoVL._SX466_.jpg" class="img-fluid" /></td>
+                                    <td style="width: 5%;" class="align-middle">000010</td>
+                                    <td style="width: 15%;" class="align-middle">Laptop Dell</td>
+                                    <td style="width: 10%;" class="align-middle">&#8377;40,000</td>
+                                    <td style="width: 5%;" class="align-middle">15%</td>
+                                    <td style="width: 5%;" class="align-middle">&#8377;35,000</td>
+                                    <td style="width: 5%;" class="align-middle">
+                                        <span class="placeholder-glow">
+                                            <span class="placeholder  badge bg-danger">10</span>
+                                        </span>
+                                    </td>
+                                    <td style="width: 10%;" class="align-middle">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="product-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Doris Wilder</td>
-                                    <td>Sales Assistant</td>
-                                    <td>Sidney</td>
-                                    <td>23</td>
-                                    <td>2010/09/20</td>
-                                    <td>$85,600</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                    <td style="width: 10%;"><img src="https://m.media-amazon.com/images/I/81EZ51fQoVL._SX466_.jpg" class="img-fluid" /></td>
+                                    <td style="width: 5%;" class="align-middle">000010</td>
+                                    <td style="width: 15%;" class="align-middle">Laptop Dell</td>
+                                    <td style="width: 10%;" class="align-middle">&#8377;40,000</td>
+                                    <td style="width: 5%;" class="align-middle">15%</td>
+                                    <td style="width: 5%;" class="align-middle">&#8377;35,000</td>
+                                    <td style="width: 5%;" class="align-middle">122</td>
+                                    <td style="width: 10%;" class="align-middle">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="product-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Angelica Ramos</td>
-                                    <td>Chief Executive Officer (CEO)</td>
-                                    <td>London</td>
-                                    <td>47</td>
-                                    <td>2009/10/09</td>
-                                    <td>$1,200,000</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                    <td style="width: 10%;"><img src="https://m.media-amazon.com/images/I/81EZ51fQoVL._SX466_.jpg" class="img-fluid" /></td>
+                                    <td style="width: 5%;" class="align-middle">000010</td>
+                                    <td style="width: 15%;" class="align-middle">Laptop Dell</td>
+                                    <td style="width: 10%;" class="align-middle">&#8377;40,000</td>
+                                    <td style="width: 5%;" class="align-middle">15%</td>
+                                    <td style="width: 5%;" class="align-middle">&#8377;35,000</td>
+                                    <td style="width: 5%;" class="align-middle">122</td>
+                                    <td style="width: 10%;" class="align-middle">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="product-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Gavin Joyce</td>
-                                    <td>Developer</td>
-                                    <td>Edinburgh</td>
-                                    <td>42</td>
-                                    <td>2010/12/22</td>
-                                    <td>$92,575</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                    <td style="width: 10%;"><img src="https://m.media-amazon.com/images/I/81EZ51fQoVL._SX466_.jpg" class="img-fluid" /></td>
+                                    <td style="width: 5%;" class="align-middle">000010</td>
+                                    <td style="width: 15%;" class="align-middle">Laptop Dell</td>
+                                    <td style="width: 10%;" class="align-middle">&#8377;40,000</td>
+                                    <td style="width: 5%;" class="align-middle">15%</td>
+                                    <td style="width: 5%;" class="align-middle">&#8377;35,000</td>
+                                    <td style="width: 5%;" class="align-middle">122</td>
+                                    <td style="width: 10%;" class="align-middle">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="product-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Jennifer Chang</td>
-                                    <td>Regional Director</td>
-                                    <td>Singapore</td>
-                                    <td>28</td>
-                                    <td>2010/11/14</td>
-                                    <td>$357,650</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                    <td style="width: 10%;"><img src="https://m.media-amazon.com/images/I/81EZ51fQoVL._SX466_.jpg" class="img-fluid" /></td>
+                                    <td style="width: 5%;" class="align-middle">000010</td>
+                                    <td style="width: 15%;" class="align-middle">Laptop Dell</td>
+                                    <td style="width: 10%;" class="align-middle">&#8377;40,000</td>
+                                    <td style="width: 5%;" class="align-middle">15%</td>
+                                    <td style="width: 5%;" class="align-middle">&#8377;35,000</td>
+                                    <td style="width: 5%;" class="align-middle">122</td>
+                                    <td style="width: 10%;" class="align-middle">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="product-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Brenden Wagner</td>
-                                    <td>Software Engineer</td>
-                                    <td>San Francisco</td>
-                                    <td>28</td>
-                                    <td>2011/06/07</td>
-                                    <td>$206,850</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                    <td style="width: 10%;"><img src="https://m.media-amazon.com/images/I/81EZ51fQoVL._SX466_.jpg" class="img-fluid" /></td>
+                                    <td style="width: 5%;" class="align-middle">000010</td>
+                                    <td style="width: 15%;" class="align-middle">Laptop Dell</td>
+                                    <td style="width: 10%;" class="align-middle">&#8377;40,000</td>
+                                    <td style="width: 5%;" class="align-middle">15%</td>
+                                    <td style="width: 5%;" class="align-middle">&#8377;35,000</td>
+                                    <td style="width: 5%;" class="align-middle">122</td>
+                                    <td style="width: 10%;" class="align-middle">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="product-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Fiona Green</td>
-                                    <td>Chief Operating Officer (COO)</td>
-                                    <td>San Francisco</td>
-                                    <td>48</td>
-                                    <td>2010/03/11</td>
-                                    <td>$850,000</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                    <td style="width: 10%;"><img src="https://m.media-amazon.com/images/I/81EZ51fQoVL._SX466_.jpg" class="img-fluid" /></td>
+                                    <td style="width: 5%;" class="align-middle">000010</td>
+                                    <td style="width: 15%;" class="align-middle">Laptop Dell</td>
+                                    <td style="width: 10%;" class="align-middle">&#8377;40,000</td>
+                                    <td style="width: 5%;" class="align-middle">15%</td>
+                                    <td style="width: 5%;" class="align-middle">&#8377;35,000</td>
+                                    <td style="width: 5%;" class="align-middle">122</td>
+                                    <td style="width: 10%;" class="align-middle">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="product-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Shou Itou</td>
-                                    <td>Regional Marketing</td>
-                                    <td>Tokyo</td>
-                                    <td>20</td>
-                                    <td>2011/08/14</td>
-                                    <td>$163,000</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                    <td style="width: 10%;"><img src="https://m.media-amazon.com/images/I/81EZ51fQoVL._SX466_.jpg" class="img-fluid" /></td>
+                                    <td style="width: 5%;" class="align-middle">000010</td>
+                                    <td style="width: 15%;" class="align-middle">Laptop Dell</td>
+                                    <td style="width: 10%;" class="align-middle">&#8377;40,000</td>
+                                    <td style="width: 5%;" class="align-middle">15%</td>
+                                    <td style="width: 5%;" class="align-middle">&#8377;35,000</td>
+                                    <td style="width: 5%;" class="align-middle">122</td>
+                                    <td style="width: 10%;" class="align-middle">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="product-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Michelle House</td>
-                                    <td>Integration Specialist</td>
-                                    <td>Sidney</td>
-                                    <td>37</td>
-                                    <td>2011/06/02</td>
-                                    <td>$95,400</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Suki Burks</td>
-                                    <td>Developer</td>
-                                    <td>London</td>
-                                    <td>53</td>
-                                    <td>2009/10/22</td>
-                                    <td>$114,500</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Prescott Bartlett</td>
-                                    <td>Technical Author</td>
-                                    <td>London</td>
-                                    <td>27</td>
-                                    <td>2011/05/07</td>
-                                    <td>$145,000</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Gavin Cortez</td>
-                                    <td>Team Leader</td>
-                                    <td>San Francisco</td>
-                                    <td>22</td>
-                                    <td>2008/10/26</td>
-                                    <td>$235,500</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Martena Mccray</td>
-                                    <td>Post-Sales support</td>
-                                    <td>Edinburgh</td>
-                                    <td>46</td>
-                                    <td>2011/03/09</td>
-                                    <td>$324,050</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Unity Butler</td>
-                                    <td>Marketing Designer</td>
-                                    <td>San Francisco</td>
-                                    <td>47</td>
-                                    <td>2009/12/09</td>
-                                    <td>$85,675</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Howard Hatfield</td>
-                                    <td>Office Manager</td>
-                                    <td>San Francisco</td>
-                                    <td>51</td>
-                                    <td>2008/12/16</td>
-                                    <td>$164,500</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Hope Fuentes</td>
-                                    <td>Secretary</td>
-                                    <td>San Francisco</td>
-                                    <td>41</td>
-                                    <td>2010/02/12</td>
-                                    <td>$109,850</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Vivian Harrell</td>
-                                    <td>Financial Controller</td>
-                                    <td>San Francisco</td>
-                                    <td>62</td>
-                                    <td>2009/02/14</td>
-                                    <td>$452,500</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Timothy Mooney</td>
-                                    <td>Office Manager</td>
-                                    <td>London</td>
-                                    <td>37</td>
-                                    <td>2008/12/11</td>
-                                    <td>$136,200</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Jackson Bradshaw</td>
-                                    <td>Director</td>
-                                    <td>New York</td>
-                                    <td>65</td>
-                                    <td>2008/09/26</td>
-                                    <td>$645,750</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Olivia Liang</td>
-                                    <td>Support Engineer</td>
-                                    <td>Singapore</td>
-                                    <td>64</td>
-                                    <td>2011/02/03</td>
-                                    <td>$234,500</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Bruno Nash</td>
-                                    <td>Software Engineer</td>
-                                    <td>London</td>
-                                    <td>38</td>
-                                    <td>2011/05/03</td>
-                                    <td>$163,500</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Sakura Yamamoto</td>
-                                    <td>Support Engineer</td>
-                                    <td>Tokyo</td>
-                                    <td>37</td>
-                                    <td>2009/08/19</td>
-                                    <td>$139,575</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                    <td style="width: 10%;"><img src="https://m.media-amazon.com/images/I/81EZ51fQoVL._SX466_.jpg" class="img-fluid" /></td>
+                                    <td style="width: 5%;" class="align-middle">000010</td>
+                                    <td style="width: 15%;" class="align-middle">Laptop Dell</td>
+                                    <td style="width: 10%;" class="align-middle">&#8377;40,000</td>
+                                    <td style="width: 5%;" class="align-middle">15%</td>
+                                    <td style="width: 5%;" class="align-middle">&#8377;35,000</td>
+                                    <td style="width: 5%;" class="align-middle">122</td>
+                                    <td style="width: 10%;" class="align-middle">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="product-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                             </tbody>

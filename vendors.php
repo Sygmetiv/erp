@@ -29,10 +29,17 @@
             <div class="page-content fade-in-up">
                 <div class="ibox">
                     <div class="ibox-body">
-                        <div class="text-end px-2 pb-2">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newVendorModal">
-                                <i class="fa fa-plus"></i> New Vendor
-                            </button>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Type Keyword & Enter" />
+                            </div>
+                            <div class="col">
+                                <div class="text-end px-2 pb-2">
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newVendorModal">
+                                        <i class="fa fa-plus"></i> New Vendor
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                         <table class="table table-striped table-bordered table-hover" id="example-table" cellspacing="0" width="100%">
                             <thead>
@@ -59,279 +66,323 @@
                             </tfoot>
                             <tbody>
                                 <tr>
-                                    <td>Yuri Berry</td>
-                                    <td>Chief Marketing Officer (CMO)</td>
-                                    <td>New York</td>
-                                    <td>40</td>
-                                    <td>2009/06/25</td>
-                                    <td>$675,000</td>
+                                    <td>Angelica Ramos</td>
+                                    <td>angelica@gmail.com</td>
+                                    <td>7894561230</td>
+                                    <td>7894561230</td>
+                                    <td>Software</td>
+                                    <td>WEKPO23423423SDF</td>
                                     <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Caesar Vance</td>
-                                    <td>Pre-Sales Support</td>
-                                    <td>New York</td>
-                                    <td>21</td>
-                                    <td>2011/12/12</td>
-                                    <td>$106,450</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Doris Wilder</td>
-                                    <td>Sales Assistant</td>
-                                    <td>Sidney</td>
-                                    <td>23</td>
-                                    <td>2010/09/20</td>
-                                    <td>$85,600</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="vendor-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Angelica Ramos</td>
-                                    <td>Chief Executive Officer (CEO)</td>
-                                    <td>London</td>
-                                    <td>47</td>
-                                    <td>2009/10/09</td>
-                                    <td>$1,200,000</td>
+                                    <td>angelica@gmail.com</td>
+                                    <td>7894561230</td>
+                                    <td>7894561230</td>
+                                    <td>Software</td>
+                                    <td>WEKPO23423423SDF</td>
                                     <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="vendor-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Gavin Joyce</td>
-                                    <td>Developer</td>
-                                    <td>Edinburgh</td>
-                                    <td>42</td>
-                                    <td>2010/12/22</td>
-                                    <td>$92,575</td>
+                                    <td>Angelica Ramos</td>
+                                    <td>angelica@gmail.com</td>
+                                    <td>7894561230</td>
+                                    <td>7894561230</td>
+                                    <td>Software</td>
+                                    <td>WEKPO23423423SDF</td>
                                     <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="vendor-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Jennifer Chang</td>
-                                    <td>Regional Director</td>
-                                    <td>Singapore</td>
-                                    <td>28</td>
-                                    <td>2010/11/14</td>
-                                    <td>$357,650</td>
+                                    <td>Angelica Ramos</td>
+                                    <td>angelica@gmail.com</td>
+                                    <td>7894561230</td>
+                                    <td>7894561230</td>
+                                    <td>Software</td>
+                                    <td>WEKPO23423423SDF</td>
                                     <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="vendor-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Brenden Wagner</td>
-                                    <td>Software Engineer</td>
-                                    <td>San Francisco</td>
-                                    <td>28</td>
-                                    <td>2011/06/07</td>
-                                    <td>$206,850</td>
+                                    <td>Angelica Ramos</td>
+                                    <td>angelica@gmail.com</td>
+                                    <td>7894561230</td>
+                                    <td>7894561230</td>
+                                    <td>Software</td>
+                                    <td>WEKPO23423423SDF</td>
                                     <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="vendor-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Fiona Green</td>
-                                    <td>Chief Operating Officer (COO)</td>
-                                    <td>San Francisco</td>
-                                    <td>48</td>
-                                    <td>2010/03/11</td>
-                                    <td>$850,000</td>
+                                    <td>Angelica Ramos</td>
+                                    <td>angelica@gmail.com</td>
+                                    <td>7894561230</td>
+                                    <td>7894561230</td>
+                                    <td>Software</td>
+                                    <td>WEKPO23423423SDF</td>
                                     <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="vendor-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Shou Itou</td>
-                                    <td>Regional Marketing</td>
-                                    <td>Tokyo</td>
-                                    <td>20</td>
-                                    <td>2011/08/14</td>
-                                    <td>$163,000</td>
+                                    <td>Angelica Ramos</td>
+                                    <td>angelica@gmail.com</td>
+                                    <td>7894561230</td>
+                                    <td>7894561230</td>
+                                    <td>Software</td>
+                                    <td>WEKPO23423423SDF</td>
                                     <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="vendor-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Michelle House</td>
-                                    <td>Integration Specialist</td>
-                                    <td>Sidney</td>
-                                    <td>37</td>
-                                    <td>2011/06/02</td>
-                                    <td>$95,400</td>
+                                    <td>Angelica Ramos</td>
+                                    <td>angelica@gmail.com</td>
+                                    <td>7894561230</td>
+                                    <td>7894561230</td>
+                                    <td>Software</td>
+                                    <td>WEKPO23423423SDF</td>
                                     <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="vendor-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Suki Burks</td>
-                                    <td>Developer</td>
-                                    <td>London</td>
-                                    <td>53</td>
-                                    <td>2009/10/22</td>
-                                    <td>$114,500</td>
+                                    <td>Angelica Ramos</td>
+                                    <td>angelica@gmail.com</td>
+                                    <td>7894561230</td>
+                                    <td>7894561230</td>
+                                    <td>Software</td>
+                                    <td>WEKPO23423423SDF</td>
                                     <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="vendor-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Prescott Bartlett</td>
-                                    <td>Technical Author</td>
-                                    <td>London</td>
-                                    <td>27</td>
-                                    <td>2011/05/07</td>
-                                    <td>$145,000</td>
+                                    <td>Angelica Ramos</td>
+                                    <td>angelica@gmail.com</td>
+                                    <td>7894561230</td>
+                                    <td>7894561230</td>
+                                    <td>Software</td>
+                                    <td>WEKPO23423423SDF</td>
                                     <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Gavin Cortez</td>
-                                    <td>Team Leader</td>
-                                    <td>San Francisco</td>
-                                    <td>22</td>
-                                    <td>2008/10/26</td>
-                                    <td>$235,500</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Martena Mccray</td>
-                                    <td>Post-Sales support</td>
-                                    <td>Edinburgh</td>
-                                    <td>46</td>
-                                    <td>2011/03/09</td>
-                                    <td>$324,050</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Unity Butler</td>
-                                    <td>Marketing Designer</td>
-                                    <td>San Francisco</td>
-                                    <td>47</td>
-                                    <td>2009/12/09</td>
-                                    <td>$85,675</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Howard Hatfield</td>
-                                    <td>Office Manager</td>
-                                    <td>San Francisco</td>
-                                    <td>51</td>
-                                    <td>2008/12/16</td>
-                                    <td>$164,500</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Hope Fuentes</td>
-                                    <td>Secretary</td>
-                                    <td>San Francisco</td>
-                                    <td>41</td>
-                                    <td>2010/02/12</td>
-                                    <td>$109,850</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Vivian Harrell</td>
-                                    <td>Financial Controller</td>
-                                    <td>San Francisco</td>
-                                    <td>62</td>
-                                    <td>2009/02/14</td>
-                                    <td>$452,500</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Timothy Mooney</td>
-                                    <td>Office Manager</td>
-                                    <td>London</td>
-                                    <td>37</td>
-                                    <td>2008/12/11</td>
-                                    <td>$136,200</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Jackson Bradshaw</td>
-                                    <td>Director</td>
-                                    <td>New York</td>
-                                    <td>65</td>
-                                    <td>2008/09/26</td>
-                                    <td>$645,750</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Olivia Liang</td>
-                                    <td>Support Engineer</td>
-                                    <td>Singapore</td>
-                                    <td>64</td>
-                                    <td>2011/02/03</td>
-                                    <td>$234,500</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Bruno Nash</td>
-                                    <td>Software Engineer</td>
-                                    <td>London</td>
-                                    <td>38</td>
-                                    <td>2011/05/03</td>
-                                    <td>$163,500</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Sakura Yamamoto</td>
-                                    <td>Support Engineer</td>
-                                    <td>Tokyo</td>
-                                    <td>37</td>
-                                    <td>2009/08/19</td>
-                                    <td>$139,575</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="vendor-history.php">
+                                                        <i class="fa fa-history"></i> History
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                             </tbody>
@@ -404,6 +455,36 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #END -->
+
+    <!-- #START - Vendor History -->
+    <div class="modal fade" id="vendorHistoryDetail" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">History</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Purchase Date</th>
+                                <th>Order #</th>
+                                <th>Total</th>
+                                <th>Code</th>
+                                <th>Code</th>
+                            </tr>
+                        </thead>
+                    </table>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
