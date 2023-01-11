@@ -32,7 +32,7 @@
                 </a>
             </li>
             <li>
-                <a href="customers.php">
+                <a href="purchase-orders.php">
                     <i class="sidebar-item-icon fa fa-money"></i>
                     <span class="nav-label">Purchase Orders</span>
                 </a>
@@ -45,9 +45,18 @@
             </li>
             <li>
                 <a href="javascript:;">
-                    <i class="sidebar-item-icon fa fa-random"></i>
-                    <span class="nav-label">Money Flow</span>
+                    <i class="sidebar-item-icon fa fa-inr"></i>
+                    <span class="nav-label">Account</span>
+                    <i class="fa fa-angle-left arrow"></i>
                 </a>
+                <ul class="nav-2-level collapse">
+                    <li>
+                        <a href="cashbooks.php">Cash Books</a>
+                    </li>
+                    <li>
+                        <a href="cashflow.php">Cash Flow</a>
+                    </li>
+                </ul>
             </li>
             <li>
                 <a href="javascript:;">

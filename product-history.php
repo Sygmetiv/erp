@@ -35,7 +35,7 @@
             <div class="page-content fade-in-up">
                 <div class="ibox">
                     <div class="ibox-body">
-                        <div class="row pb-2">
+                        <div class="row pb-4">
                             <div class="col-auto">
                                 <label>Customer</label>
                                 <select name="" id="" class="form-control">

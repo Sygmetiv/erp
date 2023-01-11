@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>ERP - Sales Orders</title>
+    <title>ERP - Vendors History</title>
     <!-- CSS-->
     <?php include('dependency-css.php'); ?>
 </head>
@@ -25,45 +25,31 @@
         <div class="content-wrapper">
 
             <div class="page-heading">
-                <h1 class="page-title my-0">Sales Orders</h1>
+                <h1 class="page-title my-0">Purchase Orders</h1>
             </div>
             <!-- START PAGE CONTENT-->
             <div class="page-content fade-in-up">
                 <div class="ibox">
                     <div class="ibox-body">
-                        <div class="row pb-4">
+                        <div class="row pb-2">
                             <div class="col-auto">
-                                <label>Customer</label>
-                                <select name="" id="" class="form-control">
-                                    <option>CUSTOEMR 4441</option>
-                                    <option>CUSTOEMR 4562</option>
-                                    <option>CUSTOEMR 3456</option>
-                                    <option>CUSTOEMR 4565464</option>
-                                    <option>CUSTOEMR 545656</option>
-                                    <option>CUSTOEMR 67890</option>
-                                </select>
-                            </div>
-                            <div class="col-auto">
-                                <label>Start Date</label>
                                 <input type="date" class="form-control" placeholder="Start Date" />
                             </div>
                             <div class="col-auto">
-                                <label>End Date</label>
                                 <input type="date" class="form-control" placeholder="End Date" />
                             </div>
                             <div class="col-auto">
-                                <label>Keyword</label>
                                 <input type="text" class="form-control" placeholder="Type Keyword & Enter" />
                             </div>
-                            <div class="col-auto pt-4">
+                            <div class="col-auto">
                                 <button class="btn btn-primary">Search</button>
                             </div>
                         </div>
                         <table class="table table-striped table-bordered table-hover" id="example-table" cellspacing="0" width="100%">
                             <thead>
                                 <tr>
-                                    <th>Sold Date</th>
-                                    <th>Customer</th>
+                                    <th>Purchase Date</th>
+                                    <th>Vendor</th>
                                     <th>Order #</th>
                                     <th>Items Count</th>
                                     <th>Total</th>
@@ -74,8 +60,8 @@
                             </thead>
                             <tfoot>
                                 <tr>
-                                    <th>Sold Date</th>
-                                    <th>Customer</th>
+                                    <th>Purchase Date</th>
+                                    <th>Vendor</th>
                                     <th>Order #</th>
                                     <th>Items Count</th>
                                     <th>Total</th>
@@ -88,24 +74,7 @@
                                 <tr>
                                     <td>2023-01-13</td>
                                     <td>Nation Ads</td>
-                                    <td>SIN00001</td>
-                                    <td>10</td>
-                                    <td>&#8377;150000</td>
-                                    <td>
-                                        <span class="badge bg-primary">BANK</span>
-                                        <i class="fa fa-battery-half text-warning" aria-hidden="true"></i>
-                                    </td>
-                                    <td><span class="badge bg-warning">IN TRANSIT</span></td>
-                                    <td>
-                                        <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
-                                        </button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2023-01-13</td>
-                                    <td>Nation Ads</td>
-                                    <td>SIN00001</td>
+                                    <td>PUR0001</td>
                                     <td>10</td>
                                     <td>&#8377;150000</td>
                                     <td>
@@ -122,7 +91,7 @@
                                 <tr>
                                     <td>2023-01-13</td>
                                     <td>Nation Ads</td>
-                                    <td>SIN00001</td>
+                                    <td>PUR0001</td>
                                     <td>10</td>
                                     <td>&#8377;150000</td>
                                     <td>
@@ -139,7 +108,7 @@
                                 <tr>
                                     <td>2023-01-13</td>
                                     <td>Nation Ads</td>
-                                    <td>SIN00001</td>
+                                    <td>PUR0001</td>
                                     <td>10</td>
                                     <td>&#8377;150000</td>
                                     <td>
@@ -156,7 +125,7 @@
                                 <tr>
                                     <td>2023-01-13</td>
                                     <td>Nation Ads</td>
-                                    <td>SIN00001</td>
+                                    <td>PUR0001</td>
                                     <td>10</td>
                                     <td>&#8377;150000</td>
                                     <td>
@@ -173,7 +142,7 @@
                                 <tr>
                                     <td>2023-01-13</td>
                                     <td>Nation Ads</td>
-                                    <td>SIN00001</td>
+                                    <td>PUR0001</td>
                                     <td>10</td>
                                     <td>&#8377;150000</td>
                                     <td>
@@ -190,7 +159,7 @@
                                 <tr>
                                     <td>2023-01-13</td>
                                     <td>Nation Ads</td>
-                                    <td>SIN00001</td>
+                                    <td>PUR0001</td>
                                     <td>10</td>
                                     <td>&#8377;150000</td>
                                     <td>
@@ -207,7 +176,7 @@
                                 <tr>
                                     <td>2023-01-13</td>
                                     <td>Nation Ads</td>
-                                    <td>SIN00001</td>
+                                    <td>PUR0001</td>
                                     <td>10</td>
                                     <td>&#8377;150000</td>
                                     <td>
@@ -224,7 +193,7 @@
                                 <tr>
                                     <td>2023-01-13</td>
                                     <td>Nation Ads</td>
-                                    <td>SIN00001</td>
+                                    <td>PUR0001</td>
                                     <td>10</td>
                                     <td>&#8377;150000</td>
                                     <td>
@@ -241,7 +210,24 @@
                                 <tr>
                                     <td>2023-01-13</td>
                                     <td>Nation Ads</td>
-                                    <td>SIN00001</td>
+                                    <td>PUR0001</td>
+                                    <td>10</td>
+                                    <td>&#8377;150000</td>
+                                    <td>
+                                        <span class="badge bg-primary">BANK</span>
+                                        <i class="fa fa-battery-half text-warning" aria-hidden="true"></i>
+                                    </td>
+                                    <td><span class="badge bg-success">DELIVERED</span></td>
+                                    <td>
+                                        <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                            <i class="fa fa-list"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2023-01-13</td>
+                                    <td>Nation Ads</td>
+                                    <td>PUR0001</td>
                                     <td>10</td>
                                     <td>&#8377;150000</td>
                                     <td>
@@ -341,7 +327,7 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sales Order Detail</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Purchase Detail</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -349,22 +335,22 @@
                         <div class="col">
                             <div class="card">
                                 <div class="card-header">
-                                    Order Detail
+                                    Purchase
                                 </div>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">
                                         <table class="table table-sm table-striped">
                                             <tr>
-                                                <td>Sold Date</td>
+                                                <td>Purchased Date</td>
                                                 <td>2022-01-13</td>
                                             </tr>
                                             <tr>
-                                                <td>Customer</td>
+                                                <td>Vendor</td>
                                                 <td>Nation Ads</td>
                                             </tr>
                                             <tr>
                                                 <td>Order #</td>
-                                                <td>SIN00001</td>
+                                                <td>PUR0001</td>
                                             </tr>
                                             <tr>
                                                 <td>Items Count</td>
@@ -376,7 +362,7 @@
                                             </tr>
                                             <tr>
                                                 <td>Order Status</td>
-                                                <td><span class="badge bg-warning">IN TRANSIT</span></td>
+                                                <td><span class="badge bg-success">DELIVERED</span></td>
                                             </tr>
                                         </table>
                                     </li>
@@ -405,7 +391,7 @@
                                             </tr>
                                             <tr>
                                                 <td>Payment Status</td>
-                                                <td><span class="badge bg-success">DELIVERED</span></td>
+                                                <td><span class="badge bg-success">PAID</span></td>
                                             </tr>
                                         </table>
                                     </li>
