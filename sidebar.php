@@ -46,7 +46,7 @@
             <li>
                 <a href="javascript:;">
                     <i class="sidebar-item-icon fa fa-inr"></i>
-                    <span class="nav-label">Account</span>
+                    <span class="nav-label">Transactions</span>
                     <i class="fa fa-angle-left arrow"></i>
                 </a>
                 <ul class="nav-2-level collapse">
