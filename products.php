@@ -35,8 +35,8 @@
                             </div>
                             <div class="col">
                                 <div class="text-end px-2 pb-2">
-                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newVendorModal">
-                                        <i class="fa fa-plus"></i> New Customer
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newProductModal">
+                                        <i class="fa fa-plus"></i> New Product
                                     </button>
                                 </div>
                             </div>
@@ -445,47 +445,51 @@
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-3">
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Code</label>
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Code">
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-3">
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Name</label>
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-3">
                             <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Price</label>
+                                <label for="exampleFormControlInput1" class="form-label">Purchase Price</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Price">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Selling Price</label>
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Price">
                             </div>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col">
+                        <div class="col-3">
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Discount</label>
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="%">
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-3">
                             <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Discounted Price</label>
+                                <label for="exampleFormControlInput1" class="form-label">Discounted Selling Price</label>
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Discounted Price">
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-3">
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Stock Count</label>
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Stock Count">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
                         <div class="col">
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Images</label>
