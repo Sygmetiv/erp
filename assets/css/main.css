@@ -5258,3 +5258,8 @@ table.dataTable {
 .page-brand a {
   text-decoration: none !important;
 }
+
+.custom-dropdown.dropdown-menu .dropdown-item,
+.dropdown-menu>li>a {
+  padding: 5px 8px;
+}

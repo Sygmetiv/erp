@@ -140,116 +140,9 @@
                                                         <i class="fa fa-list"></i> Detail
                                                     </a>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2023-01-13</td>
-                                    <td>Nation Ads</td>
-                                    <td>SIN00001</td>
-                                    <td>10</td>
-                                    <td>&#8377;150000</td>
-                                    <td>
-                                        <span class="badge bg-primary">BANK</span>
-                                        <i class="fa fa-battery-half text-warning" aria-hidden="true"></i>
-                                    </td>
-                                    <td><span class="badge bg-success">DELIVERED</span></td>
-                                    <td>
-                                        <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Action
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-times"></i> Cancel
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-check-circle"></i> Approve
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-hourglass-half"></i> In Transit
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-truck"></i> Delivered
-                                                    </a>
-                                                </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                                        <i class="fa fa-list"></i> Detail
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2023-01-13</td>
-                                    <td>Nation Ads</td>
-                                    <td>SIN00001</td>
-                                    <td>10</td>
-                                    <td>&#8377;150000</td>
-                                    <td>
-                                        <span class="badge bg-primary">BANK</span>
-                                        <i class="fa fa-battery-half text-warning" aria-hidden="true"></i>
-                                    </td>
-                                    <td><span class="badge bg-success">DELIVERED</span></td>
-                                    <td>
-                                        <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Action
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-times"></i> Cancel
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-check-circle"></i> Approve
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-hourglass-half"></i> In Transit
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-truck"></i> Delivered
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                                        <i class="fa fa-list"></i> Detail
+                                                        <i class="fa fa-download"></i> Invoice
                                                     </a>
                                                 </li>
                                             </ul>
@@ -308,116 +201,9 @@
                                                         <i class="fa fa-list"></i> Detail
                                                     </a>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2023-01-13</td>
-                                    <td>Nation Ads</td>
-                                    <td>SIN00001</td>
-                                    <td>10</td>
-                                    <td>&#8377;150000</td>
-                                    <td>
-                                        <span class="badge bg-primary">BANK</span>
-                                        <i class="fa fa-battery-half text-warning" aria-hidden="true"></i>
-                                    </td>
-                                    <td><span class="badge bg-success">DELIVERED</span></td>
-                                    <td>
-                                        <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Action
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-times"></i> Cancel
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-check-circle"></i> Approve
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-hourglass-half"></i> In Transit
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-truck"></i> Delivered
-                                                    </a>
-                                                </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                                        <i class="fa fa-list"></i> Detail
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2023-01-13</td>
-                                    <td>Nation Ads</td>
-                                    <td>SIN00001</td>
-                                    <td>10</td>
-                                    <td>&#8377;150000</td>
-                                    <td>
-                                        <span class="badge bg-primary">BANK</span>
-                                        <i class="fa fa-battery-half text-warning" aria-hidden="true"></i>
-                                    </td>
-                                    <td><span class="badge bg-success">DELIVERED</span></td>
-                                    <td>
-                                        <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Action
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-times"></i> Cancel
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-check-circle"></i> Approve
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-hourglass-half"></i> In Transit
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-truck"></i> Delivered
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                                        <i class="fa fa-list"></i> Detail
+                                                        <i class="fa fa-download"></i> Invoice
                                                     </a>
                                                 </li>
                                             </ul>
@@ -476,6 +262,11 @@
                                                         <i class="fa fa-list"></i> Detail
                                                     </a>
                                                 </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                        <i class="fa fa-download"></i> Invoice
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </td>
@@ -532,6 +323,11 @@
                                                         <i class="fa fa-list"></i> Detail
                                                     </a>
                                                 </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                        <i class="fa fa-download"></i> Invoice
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </td>
@@ -588,6 +384,11 @@
                                                         <i class="fa fa-list"></i> Detail
                                                     </a>
                                                 </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                        <i class="fa fa-download"></i> Invoice
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </td>
@@ -642,6 +443,255 @@
                                                 <li>
                                                     <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
                                                         <i class="fa fa-list"></i> Detail
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                        <i class="fa fa-download"></i> Invoice
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2023-01-13</td>
+                                    <td>Nation Ads</td>
+                                    <td>SIN00001</td>
+                                    <td>10</td>
+                                    <td>&#8377;150000</td>
+                                    <td>
+                                        <span class="badge bg-primary">BANK</span>
+                                        <i class="fa fa-battery-half text-warning" aria-hidden="true"></i>
+                                    </td>
+                                    <td><span class="badge bg-success">DELIVERED</span></td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-times"></i> Cancel
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-check-circle"></i> Approve
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-hourglass-half"></i> In Transit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-truck"></i> Delivered
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                        <i class="fa fa-list"></i> Detail
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                        <i class="fa fa-download"></i> Invoice
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2023-01-13</td>
+                                    <td>Nation Ads</td>
+                                    <td>SIN00001</td>
+                                    <td>10</td>
+                                    <td>&#8377;150000</td>
+                                    <td>
+                                        <span class="badge bg-primary">BANK</span>
+                                        <i class="fa fa-battery-half text-warning" aria-hidden="true"></i>
+                                    </td>
+                                    <td><span class="badge bg-success">DELIVERED</span></td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-times"></i> Cancel
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-check-circle"></i> Approve
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-hourglass-half"></i> In Transit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-truck"></i> Delivered
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                        <i class="fa fa-list"></i> Detail
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                        <i class="fa fa-download"></i> Invoice
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2023-01-13</td>
+                                    <td>Nation Ads</td>
+                                    <td>SIN00001</td>
+                                    <td>10</td>
+                                    <td>&#8377;150000</td>
+                                    <td>
+                                        <span class="badge bg-primary">BANK</span>
+                                        <i class="fa fa-battery-half text-warning" aria-hidden="true"></i>
+                                    </td>
+                                    <td><span class="badge bg-success">DELIVERED</span></td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-times"></i> Cancel
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-check-circle"></i> Approve
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-hourglass-half"></i> In Transit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-truck"></i> Delivered
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                        <i class="fa fa-list"></i> Detail
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                        <i class="fa fa-download"></i> Invoice
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2023-01-13</td>
+                                    <td>Nation Ads</td>
+                                    <td>SIN00001</td>
+                                    <td>10</td>
+                                    <td>&#8377;150000</td>
+                                    <td>
+                                        <span class="badge bg-primary">BANK</span>
+                                        <i class="fa fa-battery-half text-warning" aria-hidden="true"></i>
+                                    </td>
+                                    <td><span class="badge bg-success">DELIVERED</span></td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-pencil"></i> Edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-times"></i> Cancel
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-check-circle"></i> Approve
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-hourglass-half"></i> In Transit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fa fa-truck"></i> Delivered
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                        <i class="fa fa-list"></i> Detail
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                        <i class="fa fa-download"></i> Invoice
                                                     </a>
                                                 </li>
                                             </ul>
