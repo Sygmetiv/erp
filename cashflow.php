@@ -156,7 +156,6 @@
                                     <td class="align-middle text-end">
                                         &#8377; 55,000
                                         <i class="fa fa-long-arrow-up text-success"></i>
-                                        <span class="badge text-bg-danger">Danger</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -206,6 +205,18 @@
                         <input type="hidden" id="id" name="id">
                         <div class="form-group">
                             <div class="col">
+                                <label><i class="fa fa-hand-holding-usd"></i> Cash Book</label>
+                                <select class="form-control" id="source" name="source" required>
+                                    <option value="CASH">OFFICE</option>
+                                    <option value="CASH">PURCHASE</option>
+                                    <option value="BANK">SALES ORDER</option>
+                                    <option value="BANK">PETTY CASH</option>
+                                </select>
+                                <div class="invalid-feedback">Select Source</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col">
                                 <label><i class="fa fa-hand-holding-usd"></i> Source</label>
                                 <select class="form-control" id="source" name="source" required>
                                     <option value="CASH">Cash</option>
@@ -226,9 +237,12 @@
                             <div class="col">
                                 <label><i class="fa fa-border-all"></i> Category</label>
                                 <select class="form-control" id="category_id" name="category_id" required>
-                                    <option>Category 1</option>
-                                    <option>Category 2</option>
-                                    <option>Category 3</option>
+                                    <option>Rent</option>
+                                    <option>Purchase</option>
+                                    <option>Sales Order</option>
+                                    <option>Power Bill</option>
+                                    <option>Food</option>
+                                    <option>Client Paid</option>
                                 </select>
                                 <div class="invalid-feedback">Select Category</div>
                             </div>
@@ -273,6 +287,18 @@
                         <input type="hidden" name="id">
                         <div class="form-group">
                             <div class="col">
+                                <label><i class="fa fa-hand-holding-usd"></i> Cash Book</label>
+                                <select class="form-control" id="source" name="source" required>
+                                    <option value="CASH">OFFICE</option>
+                                    <option value="CASH">PURCHASE</option>
+                                    <option value="BANK">SALES ORDER</option>
+                                    <option value="BANK">PETTY CASH</option>
+                                </select>
+                                <div class="invalid-feedback">Select Source</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col">
                                 <label><i class="fa fa-hand-holding-usd"></i> Source</label>
                                 <select class="form-control" name="source" required>
                                     <option value="CASH">Cash</option>
@@ -292,8 +318,13 @@
                         <div class="form-group">
                             <div class="col">
                                 <label><i class="fa fa-border-all"></i> Category</label>
-                                <select class="form-control" name="category_id" required>
-
+                                <select class="form-control" id="category_id" name="category_id" required>
+                                    <option>Rent</option>
+                                    <option>Purchase</option>
+                                    <option>Sales Order</option>
+                                    <option>Power Bill</option>
+                                    <option>Food</option>
+                                    <option>Client Paid</option>
                                 </select>
                                 <div class="invalid-feedback">Select Category</div>
                             </div>

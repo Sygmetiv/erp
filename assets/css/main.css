@@ -5263,3 +5263,19 @@ table.dataTable {
 .dropdown-menu>li>a {
   padding: 5px 8px;
 }
+
+
+/* Switch Customer CSS */
+.form-check.form-check-lg {
+  min-height: 2.5rem;
+}
+
+.form-switch.form-check-lg .form-check-input {
+  width: 4em;
+  height: 2em;
+}
+
+.form-check.form-check-lg .form-check-label {
+  margin-top: 0.5rem;
+  margin-inline: 0.5rem;
+}

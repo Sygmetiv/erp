@@ -59,9 +59,15 @@
                 </ul>
             </li>
             <li>
-                <a href="javascript:;">
+                <a href="reports.php">
                     <i class="sidebar-item-icon fa fa-file-pdf-o"></i>
                     <span class="nav-label">Reports</span>
+                </a>
+            </li>
+            <li>
+                <a href="settings.php">
+                    <i class="sidebar-item-icon fa fa-gear"></i>
+                    <span class="nav-label">Settings</span>
                 </a>
             </li>
         </ul>

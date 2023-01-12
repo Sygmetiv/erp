@@ -25,7 +25,7 @@
         <div class="content-wrapper">
 
             <div class="page-heading">
-                <h1 class="page-title my-0">Cash Books</h1>
+                <h1 class="page-title my-0">Reports</h1>
             </div>
             <!-- START PAGE CONTENT-->
             <div class="page-content fade-in-up">
@@ -33,12 +33,13 @@
                     <div class="ibox-body">
                         <div class="row pb-4">
                             <div class="col-auto">
-                                <label>Cash Book</label>
+                                <label>Type</label>
                                 <select name="" id="" class="form-control">
-                                    <option>ALL</option>
-                                    <option>PURCHASE</option>
-                                    <option>SALES ORDER</option>
-                                    <option>PETTY CASH</option>
+                                    <option>--- Select ---</option>
+                                    <option>VENDOR</option>
+                                    <option>CUSTOMER</option>
+                                    <option>PRODUCT</option>
+                                    <option>SALES</option>
                                 </select>
                             </div>
                             <div class="col-auto">
@@ -49,50 +50,25 @@
                                 <label>End Date</label>
                                 <input type="date" class="form-control" placeholder="End Date" />
                             </div>
-                            <div class="col-auto">
-                                <label>Keyword</label>
-                                <input type="text" class="form-control" placeholder="Type Keyword & Enter" />
-                            </div>
+
                             <div class="col-auto pt-4">
                                 <button class="btn btn-primary">Search</button>
                             </div>
 
-                            <div class="col-auto pt-4" data-bs-toggle="modal" data-bs-target="#newCashBookModal">
-                                <button class="btn btn-primary">New Cash Book</button>
+                            <div class="col-auto pt-4">
+                                <button class="btn btn-success"><i class="fa fa-file-excel-o"></i> Excel</button>
+                            </div>
+                            <div class="col-auto pt-4">
+                                <button class="btn btn-danger"><i class="fa fa-file-pdf-o"></i> PDF</button>
                             </div>
                         </div>
                         <div class="row pb-4">
                             <div class="col-auto">
-                                Total Amount: &#8377; 55,000
+                                Tables
                             </div>
                         </div>
 
-                        <div class="pb-4">
-                            <label>PURCHASE - &#8377; 15,000</label>
-                            <div>
-                                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar" style="width: 25%">25%</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pb-4">
-                            <label>SALES ORDER - &#8377; 35,000 </label>
-                            <div>
-                                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar bg-success" style="width: 55%">55%</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pb-4">
-                            <label>PETTY CASH - &#8377; 15,000 </label>
-                            <div>
-                                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar bg-secondary" style="width: 25%">25%</div>
-                                </div>
-                            </div>
-                        </div>
+                       
 
                     </div>
                 </div>
