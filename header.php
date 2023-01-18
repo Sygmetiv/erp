@@ -26,7 +26,7 @@
         <!-- START TOP-RIGHT TOOLBAR-->
         <ul class="nav navbar-toolbar">
             <li class="dropdown dropdown-inbox">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fas fa-envelope-o"></i>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fas fa-envelope"></i>
                     <span class="badge badge-primary envelope-badge">9</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right dropdown-menu-media">
@@ -87,7 +87,7 @@
                 </ul>
             </li>
             <li class="dropdown dropdown-notification">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fas fa-bell-o rel"><span class="notify-signal"></span></i></a>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fas fa-bell rel"><span class="notify-signal"></span></i></a>
                 <ul class="dropdown-menu dropdown-menu-right dropdown-menu-media">
                     <li class="dropdown-menu-header">
                         <div>
