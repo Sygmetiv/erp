@@ -26,7 +26,7 @@
             <div class="container-fluid p-3 bg-white">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="vendors.php">Sales Orders</a></li>
+                        <li class="breadcrumb-item"><a href="salesorders.php">Sales Orders</a></li>
                         <li class="breadcrumb-item active" aria-current="page">SIN00001</li>
                     </ol>
                 </nav>
