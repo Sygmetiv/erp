@@ -96,7 +96,7 @@
                                     <td>&#8377;150000</td>
                                     <td>
                                         <span class="badge bg-primary">BANK</span>
-                                        <i class="fa fa-battery-half text-warning" aria-hidden="true"></i>
+                                        <i class="fas fa-battery-half text-warning" aria-hidden="true"></i>
                                     </td>
                                     <td><span class="badge bg-success">DELIVERED</span></td>
                                     <td>
@@ -107,12 +107,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -126,7 +126,7 @@
                                     <td>&#8377;150000</td>
                                     <td>
                                         <span class="badge bg-primary">BANK</span>
-                                        <i class="fa fa-battery-empty text-danger" aria-hidden="true"></i>
+                                        <i class="fas fa-battery-empty text-danger" aria-hidden="true"></i>
                                     </td>
                                     <td><span class="badge bg-success">DELIVERED</span></td>
                                     <td>
@@ -137,12 +137,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -156,7 +156,7 @@
                                     <td>&#8377;150000</td>
                                     <td>
                                         <span class="badge bg-primary">BANK</span>
-                                        <i class="fa fa-battery-full text-success" aria-hidden="true"></i>
+                                        <i class="fas fa-battery-full text-success" aria-hidden="true"></i>
                                     </td>
                                     <td><span class="badge bg-success">DELIVERED</span></td>
                                     <td>
@@ -167,12 +167,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -194,12 +194,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -221,12 +221,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -248,12 +248,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -275,12 +275,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -302,12 +302,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -329,12 +329,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -356,12 +356,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -383,12 +383,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -410,12 +410,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -437,12 +437,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -464,12 +464,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>
@@ -491,12 +491,12 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="track-product.php">
-                                                        <i class="fa fa-pencil"></i> Track
+                                                        <i class="fas fa-pencil"></i> Track
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="order-detail.php">
-                                                        <i class="fa fa-trash"></i> View Order
+                                                        <i class="fas fa-trash"></i> View Order
                                                     </a>
                                                 </li>
                                             </ul>

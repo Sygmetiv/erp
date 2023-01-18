@@ -30,7 +30,7 @@
                             <div class="ibox-body">
                                 <h2 class="m-b-5 font-strong">201</h2>
                                 <div class="m-b-5">TOTAL ORDERS</div><i class="ti-shopping-cart widget-stat-icon"></i>
-                                <!-- <div><i class="fa fa-level-up m-r-5"></i><small>25% higher</small></div> -->
+                                <!-- <div><i class="fas fa-level-up m-r-5"></i><small>25% higher</small></div> -->
                                 <div>&#8377;105,000 </div>
                             </div>
                         </div>
@@ -39,7 +39,7 @@
                         <div class="ibox bg-warning color-white widget-stat">
                             <div class="ibox-body">
                                 <h2 class="m-b-5 font-strong">15</h2>
-                                <div class="m-b-5">IN TRANSIT</div><i class="fa fa-hourglass-half widget-stat-icon"></i>
+                                <div class="m-b-5">IN TRANSIT</div><i class="fas fa-hourglass-half widget-stat-icon"></i>
                                 <div>&#8377;55,000 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                         <div class="ibox bg-success color-white widget-stat">
                             <div class="ibox-body">
                                 <h2 class="m-b-5 font-strong">26</h2>
-                                <div class="m-b-5">DELIVERED</div><i class="fa fa-truck widget-stat-icon"></i>
+                                <div class="m-b-5">DELIVERED</div><i class="fas fa-truck widget-stat-icon"></i>
                                 <div>&#8377;95,000 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                         <div class="ibox bg-danger color-white widget-stat">
                             <div class="ibox-body">
                                 <h2 class="m-b-5 font-strong">108</h2>
-                                <div class="m-b-5">CANCELED</div><i class="fa fa-times widget-stat-icon"></i>
+                                <div class="m-b-5">CANCELED</div><i class="fas fa-times widget-stat-icon"></i>
                                 <div>&#8377;20,000 </div>
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                                             <div class="text-muted">WEEKLY INCOME</div>
                                             <div>
                                                 <span class="h2 m-0">$850</span>
-                                                <span class="text-success ml-2"><i class="fa fa-level-up"></i>
+                                                <span class="text-success ml-2"><i class="fas fa-level-up"></i>
                                                     +25%</span>
                                             </div>
                                         </div>
@@ -85,7 +85,7 @@
                                             <div class="text-muted">WEEKLY SALES</div>
                                             <div>
                                                 <span class="h2 m-0">240</span>
-                                                <span class="text-warning ml-2"><i class="fa fa-level-down"></i>
+                                                <span class="text-warning ml-2"><i class="fas fa-level-down"></i>
                                                     -12%</span>
                                             </div>
                                         </div>
@@ -108,9 +108,9 @@
                                         <canvas id="doughnut_chart" style="height:160px;"></canvas>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="m-b-20 text-success"><i class="fa fa-circle m-r-10"></i>Received
+                                        <div class="m-b-20 text-success"><i class="fas fa-circle m-r-10"></i>Received
                                             52%</div>
-                                        <div class="m-b-20 text-info"><i class="fa fa-circle m-r-10"></i>Pending 27%
+                                        <div class="m-b-20 text-info"><i class="fas fa-circle m-r-10"></i>Pending 27%
                                         </div>
                                     </div>
                                 </div>
@@ -125,8 +125,8 @@
                             <div class="ibox-head">
                                 <div class="ibox-title">Latest Orders</div>
                                 <div class="ibox-tools">
-                                    <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
-                                    <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-ellipsis-v"></i></a>
+                                    <a class="ibox-collapse"><i class="fas fa-minus"></i></a>
+                                    <a class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-ellipsis-v"></i></a>
                                     <div class="dropdown-menu dropdown-menu-right">
                                         <a class="dropdown-item">option 1</a>
                                         <a class="dropdown-item">option 2</a>

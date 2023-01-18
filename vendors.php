@@ -36,7 +36,7 @@
                             <div class="col">
                                 <div class="text-end px-2 pb-2">
                                     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newVendorModal">
-                                        <i class="fa fa-plus"></i> New Vendor
+                                        <i class="fas fa-plus"></i> New Vendor
                                     </button>
                                 </div>
                             </div>
@@ -80,17 +80,17 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
+                                                        <i class="fas fa-pencil"></i> Edit
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
+                                                        <i class="fas fa-trash"></i> Delete
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="vendor-history.php">
-                                                        <i class="fa fa-history"></i> History
+                                                        <i class="fas fa-history"></i> History
                                                     </a>
                                                 </li>
                                             </ul>
@@ -112,17 +112,17 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
+                                                        <i class="fas fa-pencil"></i> Edit
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
+                                                        <i class="fas fa-trash"></i> Delete
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="vendor-history.php">
-                                                        <i class="fa fa-history"></i> History
+                                                        <i class="fas fa-history"></i> History
                                                     </a>
                                                 </li>
                                             </ul>
@@ -144,17 +144,17 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
+                                                        <i class="fas fa-pencil"></i> Edit
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
+                                                        <i class="fas fa-trash"></i> Delete
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="vendor-history.php">
-                                                        <i class="fa fa-history"></i> History
+                                                        <i class="fas fa-history"></i> History
                                                     </a>
                                                 </li>
                                             </ul>
@@ -176,17 +176,17 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
+                                                        <i class="fas fa-pencil"></i> Edit
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
+                                                        <i class="fas fa-trash"></i> Delete
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="vendor-history.php">
-                                                        <i class="fa fa-history"></i> History
+                                                        <i class="fas fa-history"></i> History
                                                     </a>
                                                 </li>
                                             </ul>
@@ -208,17 +208,17 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
+                                                        <i class="fas fa-pencil"></i> Edit
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
+                                                        <i class="fas fa-trash"></i> Delete
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="vendor-history.php">
-                                                        <i class="fa fa-history"></i> History
+                                                        <i class="fas fa-history"></i> History
                                                     </a>
                                                 </li>
                                             </ul>
@@ -240,17 +240,17 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
+                                                        <i class="fas fa-pencil"></i> Edit
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
+                                                        <i class="fas fa-trash"></i> Delete
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="vendor-history.php">
-                                                        <i class="fa fa-history"></i> History
+                                                        <i class="fas fa-history"></i> History
                                                     </a>
                                                 </li>
                                             </ul>
@@ -272,17 +272,17 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
+                                                        <i class="fas fa-pencil"></i> Edit
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
+                                                        <i class="fas fa-trash"></i> Delete
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="vendor-history.php">
-                                                        <i class="fa fa-history"></i> History
+                                                        <i class="fas fa-history"></i> History
                                                     </a>
                                                 </li>
                                             </ul>
@@ -304,17 +304,17 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
+                                                        <i class="fas fa-pencil"></i> Edit
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
+                                                        <i class="fas fa-trash"></i> Delete
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="vendor-history.php">
-                                                        <i class="fa fa-history"></i> History
+                                                        <i class="fas fa-history"></i> History
                                                     </a>
                                                 </li>
                                             </ul>
@@ -336,17 +336,17 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
+                                                        <i class="fas fa-pencil"></i> Edit
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
+                                                        <i class="fas fa-trash"></i> Delete
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="vendor-history.php">
-                                                        <i class="fa fa-history"></i> History
+                                                        <i class="fas fa-history"></i> History
                                                     </a>
                                                 </li>
                                             </ul>
@@ -368,17 +368,17 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-pencil"></i> Edit
+                                                        <i class="fas fa-pencil"></i> Edit
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        <i class="fa fa-trash"></i> Delete
+                                                        <i class="fas fa-trash"></i> Delete
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="vendor-history.php">
-                                                        <i class="fa fa-history"></i> History
+                                                        <i class="fas fa-history"></i> History
                                                     </a>
                                                 </li>
                                             </ul>

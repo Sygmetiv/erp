@@ -56,10 +56,10 @@
                             </div>
 
                             <div class="col-auto pt-4">
-                                <button class="btn btn-success"><i class="fa fa-file-excel-o"></i> Excel</button>
+                                <button class="btn btn-success"><i class="fas fa-file-excel-o"></i> Excel</button>
                             </div>
                             <div class="col-auto pt-4">
-                                <button class="btn btn-danger"><i class="fa fa-file-pdf-o"></i> PDF</button>
+                                <button class="btn btn-danger"><i class="fas fa-file-pdf-o"></i> PDF</button>
                             </div>
                         </div>
                         <div class="row pb-4">

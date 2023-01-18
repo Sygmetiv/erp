@@ -37,7 +37,7 @@
                             <div class="col">
                                 <div class="text-end px-2 pb-2">
                                     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newCategoryModal">
-                                        <i class="fa fa-plus"></i> New Category
+                                        <i class="fas fa-plus"></i> New Category
                                     </button>
                                 </div>
                             </div>

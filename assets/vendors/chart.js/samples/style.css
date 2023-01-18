@@ -69,7 +69,7 @@ a:hover {
 	padding: 0.25rem 0.75rem;
 }
 
-.btn .fa {
+.btn .fas {
 	font-size: 1rem;
 }
 
@@ -170,7 +170,7 @@ a:hover {
 	.chartjs-caption { font-size: 1.05rem; }
 	.chartjs-title::before { content: ''; }
 	.chartjs-links a { flex-direction: column; }
-	.chartjs-links .fa { margin: 0 }
+	.chartjs-links .fas { margin: 0 }
 	.samples-category { width: 100%; }
 }
 

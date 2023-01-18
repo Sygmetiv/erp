@@ -26,7 +26,7 @@
         <!-- START TOP-RIGHT TOOLBAR-->
         <ul class="nav navbar-toolbar">
             <li class="dropdown dropdown-inbox">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-envelope-o"></i>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fas fa-envelope-o"></i>
                     <span class="badge badge-primary envelope-badge">9</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right dropdown-menu-media">
@@ -87,7 +87,7 @@
                 </ul>
             </li>
             <li class="dropdown dropdown-notification">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-bell-o rel"><span class="notify-signal"></span></i></a>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fas fa-bell-o rel"><span class="notify-signal"></span></i></a>
                 <ul class="dropdown-menu dropdown-menu-right dropdown-menu-media">
                     <li class="dropdown-menu-header">
                         <div>
@@ -100,7 +100,7 @@
                             <a class="list-group-item">
                                 <div class="media">
                                     <div class="media-img">
-                                        <span class="badge badge-success badge-big"><i class="fa fa-check"></i></span>
+                                        <span class="badge badge-success badge-big"><i class="fas fa-check"></i></span>
                                     </div>
                                     <div class="media-body">
                                         <div class="font-13">4 task compiled</div><small class="text-muted">22
@@ -111,7 +111,7 @@
                             <a class="list-group-item">
                                 <div class="media">
                                     <div class="media-img">
-                                        <span class="badge badge-default badge-big"><i class="fa fa-shopping-basket"></i></span>
+                                        <span class="badge badge-default badge-big"><i class="fas fa-shopping-basket"></i></span>
                                     </div>
                                     <div class="media-body">
                                         <div class="font-13">You have 12 new orders</div><small class="text-muted">40 mins</small>
@@ -121,7 +121,7 @@
                             <a class="list-group-item">
                                 <div class="media">
                                     <div class="media-img">
-                                        <span class="badge badge-danger badge-big"><i class="fa fa-bolt"></i></span>
+                                        <span class="badge badge-danger badge-big"><i class="fas fa-bolt"></i></span>
                                     </div>
                                     <div class="media-body">
                                         <div class="font-13">Server #7 rebooted</div><small class="text-muted">2
@@ -132,7 +132,7 @@
                             <a class="list-group-item">
                                 <div class="media">
                                     <div class="media-img">
-                                        <span class="badge badge-success badge-big"><i class="fa fa-user"></i></span>
+                                        <span class="badge badge-success badge-big"><i class="fas fa-user"></i></span>
                                     </div>
                                     <div class="media-body">
                                         <div class="font-13">New user registered</div><small class="text-muted">2 hrs</small>
@@ -146,13 +146,13 @@
             <li class="dropdown dropdown-user">
                 <a class="nav-link dropdown-toggle link" data-bs-toggle="dropdown">
                     <img src="./assets/img/admin-avatar.png" />
-                    <span></span>Admin<i class="fa fa-angle-down m-l-5"></i></a>
+                    <span></span>Admin<i class="fas fa-angle-down m-l-5"></i></a>
                 <ul class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item" href="profile.html"><i class="fa fa-user"></i>Profile</a>
-                    <a class="dropdown-item" href="profile.html"><i class="fa fa-cog"></i>Settings</a>
-                    <a class="dropdown-item" href="javascript:;"><i class="fa fa-support"></i>Support</a>
+                    <a class="dropdown-item" href="profile.html"><i class="fas fa-user"></i>Profile</a>
+                    <a class="dropdown-item" href="profile.html"><i class="fas fa-cog"></i>Settings</a>
+                    <a class="dropdown-item" href="javascript:;"><i class="fas fa-support"></i>Support</a>
                     <li class="dropdown-divider"></li>
-                    <a class="dropdown-item" href="login.html"><i class="fa fa-power-off"></i>Logout</a>
+                    <a class="dropdown-item" href="login.html"><i class="fas fa-power-off"></i>Logout</a>
                 </ul>
             </li>
         </ul>

@@ -181,8 +181,8 @@ $(function () {
     if($.fn.timepicker) {
         $.fn.timepicker.defaults = $.extend(!0, {}, $.fn.timepicker.defaults, {
             icons: {
-                up: "fa fa-angle-up",
-                down: "fa fa-angle-down"
+                up: "fas fa-angle-up",
+                down: "fas fa-angle-down"
             }
         });
     }

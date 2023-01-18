@@ -80,12 +80,12 @@
                                     <td>&#8377;150000</td>
                                     <td>
                                         <span class="badge bg-primary">BANK</span>
-                                        <i class="fa fa-battery-half text-warning" aria-hidden="true"></i>
+                                        <i class="fas fa-battery-half text-warning" aria-hidden="true"></i>
                                     </td>
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -96,12 +96,12 @@
                                     <td>&#8377;150000</td>
                                     <td>
                                         <span class="badge bg-primary">BANK</span>
-                                        <i class="fa fa-battery-empty text-danger" aria-hidden="true"></i>
+                                        <i class="fas fa-battery-empty text-danger" aria-hidden="true"></i>
                                     </td>
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -112,12 +112,12 @@
                                     <td>&#8377;150000</td>
                                     <td>
                                         <span class="badge bg-primary">BANK</span>
-                                        <i class="fa fa-battery-full text-success" aria-hidden="true"></i>
+                                        <i class="fas fa-battery-full text-success" aria-hidden="true"></i>
                                     </td>
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -130,7 +130,7 @@
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -143,7 +143,7 @@
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -156,7 +156,7 @@
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -169,7 +169,7 @@
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -182,7 +182,7 @@
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -195,7 +195,7 @@
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -208,7 +208,7 @@
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -221,7 +221,7 @@
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -234,7 +234,7 @@
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -247,7 +247,7 @@
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -260,7 +260,7 @@
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -273,7 +273,7 @@
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
@@ -286,7 +286,7 @@
                                     <td><span class="badge bg-success">RECEIVED</span></td>
                                     <td>
                                         <button class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                            <i class="fa fa-list"></i>
+                                            <i class="fas fa-list"></i>
                                         </button>
                                     </td>
                                 </tr>
