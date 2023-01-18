@@ -51,10 +51,10 @@
                         <a href="ledgers.php">Ledgers</a>
                     </li>
                     <li>
-                        <a href="payment-links.php">Payment Links</a>
+                        <a href="statements.php">Statements</a>
                     </li>
                     <li>
-                        <a href="statements.php">Statements</a>
+                        <a href="payment-links.php">Payment Links</a>
                     </li>
                 </ul>
             </li>

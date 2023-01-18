@@ -59,10 +59,12 @@
                                 <button class="btn btn-primary">Search</button>
                             </div>
                             <div class="col-auto pt-4">
-                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newSaleModal">New Sale</button>
+                                <button class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#newSaleModal">New Sale</button>
                             </div>
                         </div>
-                        <table class="table table-striped table-bordered table-hover" id="example-table" cellspacing="0" width="100%">
+                        <table class="table table-striped table-bordered table-hover" id="example-table" cellspacing="0"
+                            width="100%">
                             <thead>
                                 <tr>
                                     <th>Sold Date</th>
@@ -101,7 +103,8 @@
                                     <td><span class="badge bg-warning">IN TRANSIT</span></td>
                                     <td>
                                         <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
                                                 Action
                                             </button>
                                             <ul class="dropdown-menu">
@@ -136,12 +139,13 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="salesorder-detail.php">
                                                         <i class="fas fa-list"></i> Detail
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#vendorHistoryDetail">
                                                         <i class="fas fa-download"></i> Invoice
                                                     </a>
                                                 </li>
@@ -162,7 +166,8 @@
                                     <td><span class="badge bg-success">DELIVERED</span></td>
                                     <td>
                                         <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
                                                 Action
                                             </button>
                                             <ul class="dropdown-menu">
@@ -197,12 +202,13 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="salesorder-detail.php">
                                                         <i class="fas fa-list"></i> Detail
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#vendorHistoryDetail">
                                                         <i class="fas fa-download"></i> Invoice
                                                     </a>
                                                 </li>
@@ -223,7 +229,8 @@
                                     <td><span class="badge bg-success">DELIVERED</span></td>
                                     <td>
                                         <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
                                                 Action
                                             </button>
                                             <ul class="dropdown-menu">
@@ -258,12 +265,13 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="salesorder-detail.php">
                                                         <i class="fas fa-list"></i> Detail
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#vendorHistoryDetail">
                                                         <i class="fas fa-download"></i> Invoice
                                                     </a>
                                                 </li>
@@ -284,7 +292,8 @@
                                     <td><span class="badge bg-success">DELIVERED</span></td>
                                     <td>
                                         <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
                                                 Action
                                             </button>
                                             <ul class="dropdown-menu">
@@ -319,12 +328,13 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="salesorder-detail.php">
                                                         <i class="fas fa-list"></i> Detail
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#vendorHistoryDetail">
                                                         <i class="fas fa-download"></i> Invoice
                                                     </a>
                                                 </li>
@@ -345,7 +355,8 @@
                                     <td><span class="badge bg-success">DELIVERED</span></td>
                                     <td>
                                         <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
                                                 Action
                                             </button>
                                             <ul class="dropdown-menu">
@@ -380,12 +391,13 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="salesorder-detail.php">
                                                         <i class="fas fa-list"></i> Detail
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#vendorHistoryDetail">
                                                         <i class="fas fa-download"></i> Invoice
                                                     </a>
                                                 </li>
@@ -406,7 +418,8 @@
                                     <td><span class="badge bg-success">DELIVERED</span></td>
                                     <td>
                                         <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
                                                 Action
                                             </button>
                                             <ul class="dropdown-menu">
@@ -441,12 +454,13 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="salesorder-detail.php">
                                                         <i class="fas fa-list"></i> Detail
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#vendorHistoryDetail">
                                                         <i class="fas fa-download"></i> Invoice
                                                     </a>
                                                 </li>
@@ -467,7 +481,8 @@
                                     <td><span class="badge bg-success">DELIVERED</span></td>
                                     <td>
                                         <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
                                                 Action
                                             </button>
                                             <ul class="dropdown-menu">
@@ -502,12 +517,13 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="salesorder-detail.php">
                                                         <i class="fas fa-list"></i> Detail
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#vendorHistoryDetail">
                                                         <i class="fas fa-download"></i> Invoice
                                                     </a>
                                                 </li>
@@ -528,7 +544,8 @@
                                     <td><span class="badge bg-success">DELIVERED</span></td>
                                     <td>
                                         <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
                                                 Action
                                             </button>
                                             <ul class="dropdown-menu">
@@ -563,12 +580,13 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="salesorder-detail.php">
                                                         <i class="fas fa-list"></i> Detail
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#vendorHistoryDetail">
                                                         <i class="fas fa-download"></i> Invoice
                                                     </a>
                                                 </li>
@@ -589,7 +607,8 @@
                                     <td><span class="badge bg-success">DELIVERED</span></td>
                                     <td>
                                         <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
                                                 Action
                                             </button>
                                             <ul class="dropdown-menu">
@@ -624,12 +643,13 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="salesorder-detail.php">
                                                         <i class="fas fa-list"></i> Detail
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#vendorHistoryDetail">
                                                         <i class="fas fa-download"></i> Invoice
                                                     </a>
                                                 </li>
@@ -637,68 +657,6 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>2023-01-13</td>
-                                    <td>Nation Ads</td>
-                                    <td>SIN00001</td>
-                                    <td>10</td>
-                                    <td>&#8377;150000</td>
-                                    <td>
-                                        <span class="badge bg-primary">BANK</span>
-                                        <i class="fas fa-battery-half text-warning" aria-hidden="true"></i>
-                                    </td>
-                                    <td><span class="badge bg-success">DELIVERED</span></td>
-                                    <td>
-                                        <div class="dropdown">
-                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Action
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fas fa-pencil"></i> Edit
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fas fa-trash"></i> Delete
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fas fa-times"></i> Cancel
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fas fa-check-circle"></i> Approve
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fas fa-hourglass-half"></i> In Transit
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
-                                                        <i class="fas fa-truck"></i> Delivered
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                                        <i class="fas fa-list"></i> Detail
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#vendorHistoryDetail">
-                                                        <i class="fas fa-download"></i> Invoice
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-
                             </tbody>
                         </table>
                     </div>
@@ -723,7 +681,8 @@
                         <div class="col">
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Sale Date</label>
-                                <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Purchase Date">
+                                <input type="date" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Purchase Date">
                             </div>
                         </div>
                         <div class="col">
@@ -742,7 +701,8 @@
                         <div class="col">
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Total Amount</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Total Amount">
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Total Amount">
                             </div>
                         </div>
                         <div class="col">
@@ -767,7 +727,8 @@
                         <div class="col">
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Note</label>
-                                <textarea class="form-control" id="exampleFormControlInput1" placeholder="Note"></textarea>
+                                <textarea class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Note"></textarea>
                             </div>
                         </div>
                     </div>
@@ -828,143 +789,6 @@
     </div>
     <!-- #END -->
 
-    <!-- #START - Vendor History -->
-    <div class="modal fade" id="vendorHistoryDetail" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sales Order Detail</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-header">
-                                    Order Detail
-                                </div>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">
-                                        <table class="table table-sm table-striped">
-                                            <tr>
-                                                <td>Sold Date</td>
-                                                <td>2022-01-13</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Customer</td>
-                                                <td>Nation Ads</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Order #</td>
-                                                <td>SIN00001</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Items Count</td>
-                                                <td>100</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Total Amount</td>
-                                                <td>&#8377;150000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Order Status</td>
-                                                <td><span class="badge bg-warning">IN TRANSIT</span></td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-header">
-                                    Payment Information
-                                </div>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">
-                                        <table class="table table-sm table-striped">
-                                            <tr>
-                                                <td>Payment Type</td>
-                                                <td><span class="badge bg-primary">BANK</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Bank Name</td>
-                                                <td>ICICI BANK</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Account #</td>
-                                                <td>0111098346</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Payment Status</td>
-                                                <td><span class="badge bg-success">DELIVERED</span></td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mt-4">
-                        <div class="card-header">
-                            Items (10)
-                        </div>
-                        <table class="table table-sm table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Product Code</th>
-                                    <th>Product Price</th>
-                                    <th>Quantity</th>
-                                    <th>Total Amount</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>00001</td>
-                                    <td>&#8377;1500</td>
-                                    <td>10</td>
-                                    <td>&#8377;150000</td>
-                                </tr>
-                                <tr>
-                                    <td>00001</td>
-                                    <td>&#8377;1500</td>
-                                    <td>10</td>
-                                    <td>&#8377;150000</td>
-                                </tr>
-                                <tr>
-                                    <td>00001</td>
-                                    <td>&#8377;1500</td>
-                                    <td>10</td>
-                                    <td>&#8377;150000</td>
-                                </tr>
-                                <tr>
-                                    <td>00001</td>
-                                    <td>&#8377;1500</td>
-                                    <td>10</td>
-                                    <td>&#8377;150000</td>
-                                </tr>
-                                <tr>
-                                    <td>00001</td>
-                                    <td>&#8377;1500</td>
-                                    <td>10</td>
-                                    <td>&#8377;150000</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- #END -->
-
     <!-- BEGIN PAGA BACKDROPS-->
     <div class="sidenav-backdrop backdrop"></div>
     <div class="preloader-backdrop">
@@ -974,7 +798,7 @@
     <?php include('dependency-js.php'); ?>
 
     <script type="text/javascript">
-        $(function() {
+        $(function () {
             $('#example-table').DataTable({
                 pageLength: 10,
                 //"ajax": './assets/demo/data/table_data.json',
